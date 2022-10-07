@@ -9,13 +9,13 @@ for i in (3,4):
 
 	print("-"*100)
 
-nombre = "pedro Lopez Cueto"
+nombre = "Pedro López Cueto"
 
 for i in nombre:
-	print("jaja ", end="")
+	print(i, end=" ")
 
 if "P" in nombre.upper():
-	print("OK")
+	print("\nOK")
 
 else:
-	print("KO")
+	print("\nKO")
