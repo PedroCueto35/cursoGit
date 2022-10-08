@@ -6,6 +6,7 @@ while(edad.isdigit()==False):
 
 if (int(edad) < 18):
     print("No puedes pasar")
-
+elif (int(edad) > 65):  
+    print("Eres muy mayor")
 else:
     print("Puedes pasar")
